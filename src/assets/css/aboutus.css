@@ -1,0 +1,56 @@
+.chipsofic-content-block {
+  padding: 40px 0 0;
+}
+
+/*-----------------------------
+6  About Us Section
+-------------------------------*/
+.about-us-section a {
+  color: #333;
+  text-decoration: none;
+}
+.about-us-section h1 {
+  font-size: 45px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.about-us-section h1 span {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.about-us-section h2 {
+  font-size: 26px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.about-us-section h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.about-us-section h3 span {
+  font-weight: 700;
+}
+.about-us-section img {
+  -moz-transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.9s;
+}
+.about-us-section img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.about-us-section i {
+  color: #bc0f21;
+  padding-right: 10px;
+}
+.about-us-section p {
+  padding-top: 5px;
+}
