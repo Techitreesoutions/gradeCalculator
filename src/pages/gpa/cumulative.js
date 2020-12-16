@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HOCSemester from "../../components/HOCSemester";
+import HOCSemester from "../../components/gpa/HOCSemester";
 
 export default class Cumulative extends Component {
   render() {
