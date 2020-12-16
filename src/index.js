@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 //import { configureStore } from "./store/Store";
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistedStore } from "./store/Store";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 //const { store } = configureStore();
 
