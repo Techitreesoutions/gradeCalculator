@@ -29,7 +29,7 @@ export default class GPAScale extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="box">
         GPAScale
         <table>
           <tr>

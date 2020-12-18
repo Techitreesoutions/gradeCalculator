@@ -14,3 +14,8 @@ export const GPARange = [
   { Letter: "D", MinPercent: 65, MaxPercent: 66, GPAScale: 1.0 },
   { Letter: "F", MinPercent: 0, MaxPercent: 64, GPAScale: 0.0 },
 ];
+
+export const defaultCourseCountInSemester = 4;
+export const defaultAssessmentCountInClass = 2;
+export const defaultSemesterCount = 1;
+export const defaultClassCount = 1;

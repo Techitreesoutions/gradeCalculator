@@ -17,7 +17,7 @@ export default class MyHome extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Header />
         <BrowserRouter>
           <MyRouting />

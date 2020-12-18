@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default class Header extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <div className="row">
           <div className="col-lg-3">
             <div className="header__logo image-margin">
