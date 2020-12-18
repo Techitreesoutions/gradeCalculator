@@ -12,23 +12,24 @@ export default class HOCSemester extends Component {
   };
 
   increaseSemesterBlock = () => {
-    var array = this.state.semesterBlocks;
-    var lastElement = array[array.length - 1];
-    debugger;
-    array.push(
+    var lastElement = this.state.semesterBlocks[
+      this.state.semesterBlocks.length - 1
+    ];
+    var newElement = (
       <Semester
-        index={parseInt(lastElement.key) + 1}
+        semIndex={parseInt(lastElement.key) + 1}
         decreaseSemesterBlock={this.decreaseSemesterBlock}
         key={parseInt(lastElement.key) + 1}
       />
     );
-    this.setState({
-      semesterBlocks: array,
-    });
+
+    this.setState((prevState) => ({
+      semesterBlocks: [...prevState.semesterBlocks, newElement],
+    }));
   };
 
   decreaseSemesterBlock = (key) => {
-    var array = this.state.semesterBlocks;
+    var array = [...this.state.semesterBlocks];
     var index;
     array.forEach((item, i) => {
       if (parseInt(item.key) === key) {
@@ -46,7 +47,7 @@ export default class HOCSemester extends Component {
     for (var i = 0; i < this.state.semesterCount; i++) {
       requiredArray.push(
         <Semester
-          index={i}
+          semIndex={i}
           decreaseSemesterBlock={this.decreaseSemesterBlock}
           key={i}
         />
