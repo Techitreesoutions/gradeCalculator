@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
-import Header from "../components/Header";
+import Header1 from "../components/Header1";
 import MyRouting from "./myRouting";
 import Footer from "../components/Footer";
 import ReactGA from "react-ga";
@@ -17,8 +17,8 @@ export default class MyHome extends Component {
 
   render() {
     return (
-      <div className="container">
-        <Header />
+      <div>
+        <Header1 />
         <BrowserRouter>
           <MyRouting />
         </BrowserRouter>

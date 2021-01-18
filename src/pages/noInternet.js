@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 //import noIntnernetImg from "../assets/img/tmithumal_logo.png";
-import noIntnernetImg from "../assets/img/T-MithumalLogo.png";
+import noIntnernetImg from "../assets/images/icons/icon-192x192.png";
 
 const NoInternet = ({ classes }) => {
   return (
