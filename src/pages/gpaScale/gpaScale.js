@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { GPARange } from "../../util/constants";
+import PageHeader from "../../components/PageHeader";
 
 export default class GPAScale extends Component {
   state = {
@@ -30,7 +31,10 @@ export default class GPAScale extends Component {
   render() {
     return (
       <div className="box">
-        GPAScale
+        <PageHeader
+          pageName={"GPA Scale"}
+          pageDescription={"This is page description"}
+        />
         <table>
           <tr>
             <td>

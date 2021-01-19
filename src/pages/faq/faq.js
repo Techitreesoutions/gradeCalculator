@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import PageHeader from "../../components/PageHeader";
 
-export default class CalculateRaise extends Component {
+export default class FAQ extends Component {
   render() {
     return (
       <div>
         <PageHeader
-          pageName={"Guide on how to raise GPA?"}
+          pageName={"FAQ"}
           pageDescription={"This is page description"}
         />
       </div>

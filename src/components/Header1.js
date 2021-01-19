@@ -9,7 +9,7 @@ export default class Header1 extends Component {
           itemscope=""
           itemtype="https://schema.org/SiteNavigationElement"
         >
-          <a href="index.html" class="menu-desktop__logo" itemprop="url">
+          <a href="/" class="menu-desktop__logo" itemprop="url">
             <svg
               width="64"
               height="64"
@@ -34,51 +34,41 @@ export default class Header1 extends Component {
           </a>
           <ul class="menu-desktop__list">
             <li class="menu-desktop__item menu-desktop__item--dropdown">
-              <a href="index.html" class="menu-desktop__link" itemprop="url">
-                {" "}
+              <a href="/" class="menu-desktop__link">
                 <span itemprop="name">GPA Calculators</span>
                 <span class="menu-desktop__caret"></span>
               </a>
               <ul class="menu-desktop__sublist">
                 <li class="menu-desktop__subitem">
                   <a
-                    href="index.html"
+                    href="/gpa/collegeGPA"
                     class="menu-desktop__link is-active"
-                    itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">College GPA Calculator</span>
                   </a>
                 </li>
                 <li class="menu-desktop__subitem">
                   <a
-                    href="high-school-gpa-calculator.html"
+                    href="/gpa/highSchoolGPA"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">High School GPA Calculator</span>
                   </a>
                 </li>
                 <li class="menu-desktop__subitem">
                   <a
-                    href="cumulative-gpa-calculator.html"
+                    href="/gpa/cumulativeGPA"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">Cumulative GPA Calculator</span>
                   </a>
                 </li>
               </ul>
             </li>
             <li class="menu-desktop__item menu-desktop__item--dropdown">
-              <a
-                href="grade-calculator.html"
-                class="menu-desktop__link"
-                itemprop="url"
-              >
-                {" "}
+              <a href="/grade-calc" class="menu-desktop__link" itemprop="url">
                 <span itemprop="name">
                   Grade Calculator<span>s</span>
                 </span>
@@ -87,43 +77,35 @@ export default class Header1 extends Component {
               <ul class="menu-desktop__sublist">
                 <li class="menu-desktop__subitem">
                   <a
-                    href="grade-calculator.html"
+                    href="/grade-calc"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
-                    <span itemprop="name">Grade Calculator -usha</span>
+                    <span itemprop="name">Grade Calculator</span>
                   </a>
                 </li>
                 <li class="menu-desktop__subitem">
                   <a
-                    href="final-grade-calculator.html"
+                    href="/grade-calc/final"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">Final Grade Calculator</span>
                   </a>
                 </li>
                 <li class="menu-desktop__subitem">
                   <a
-                    href="weighted-grade-calculator.html"
+                    href="/grade-calc/weighted"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">Weighted Grade Calculator</span>
                   </a>
                 </li>
               </ul>
             </li>
             <li class="menu-desktop__item">
-              <a
-                href="gpa-scale.html"
-                class="menu-desktop__link"
-                itemprop="url"
-              >
-                {" "}
+              <a href="/gpa-scale" class="menu-desktop__link" itemprop="url">
                 <span itemprop="name">GPA Scale</span>
               </a>
             </li>
@@ -135,45 +117,40 @@ export default class Header1 extends Component {
               <ul class="menu-desktop__sublist">
                 <li class="menu-desktop__subitem">
                   <a
-                    href="how-to-calculate-gpa.html"
+                    href="/calculate-gpa"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">How to Calculate GPA</span>
                   </a>
                 </li>
                 <li class="menu-desktop__subitem">
                   <a
-                    href="how-to-raise-gpa.html"
+                    href="/calculate-raise"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">How to Raise Your GPA</span>
                   </a>
                 </li>
                 <li class="menu-desktop__subitem">
                   <a
-                    href="how-to-calculate-grades.html"
+                    href="/calculate-grades"
                     class="menu-desktop__link"
                     itemprop="url"
                   >
-                    {" "}
                     <span itemprop="name">How to Calculate Grades</span>
                   </a>
                 </li>
               </ul>
             </li>
             <li class="menu-desktop__item">
-              <a href="blog.html" class="menu-desktop__link" itemprop="url">
-                {" "}
+              <a href="/blog" class="menu-desktop__link" itemprop="url">
                 <span itemprop="name">Blog</span>
               </a>
             </li>
             <li class="menu-desktop__item">
-              <a href="faq.html" class="menu-desktop__link" itemprop="url">
-                {" "}
+              <a href="/faq" class="menu-desktop__link" itemprop="url">
                 <span itemprop="name">FAQ</span>
               </a>
             </li>

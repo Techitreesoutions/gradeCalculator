@@ -14,6 +14,7 @@ import CalculateGrade from "./guides/calculateGrade";
 import CalculateRaise from "./guides/calculateRaise";
 import GPAScale from "./gpaScale/gpaScale";
 import Blog from "./blog/blog";
+import FAQ from "./faq/faq";
 
 export default class MyRouting extends Component {
   componentDidMount() {
@@ -38,6 +39,7 @@ export default class MyRouting extends Component {
         {/* others */}
         <Route exact path="/gpa-scale" component={GPAScale} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/faq" component={FAQ} />
 
         <Route component={Error} />
         <Redirect from="*" to="/" />

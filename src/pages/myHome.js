@@ -19,9 +19,12 @@ export default class MyHome extends Component {
     return (
       <div>
         <Header1 />
-        <BrowserRouter>
-          <MyRouting />
-        </BrowserRouter>
+
+        <main class="body-content js-body-content">
+          <BrowserRouter>
+            <MyRouting />
+          </BrowserRouter>
+        </main>
         <Footer />
       </div>
     );
